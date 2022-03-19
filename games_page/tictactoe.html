@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Dev Projects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div id="headerOptions">
+        <span class="headerOption"><a href="index.html">Home</a></span>
+        <span class="headerOption"
+          ><div class="dropdown">
+            <button class="dropbtn">Games</button>
+            <div class="dropdown-content">
+              <a href="tictactoe.html">Tic-Tac-Toe</a>
+            </div>
+          </div></span
+        >
+        <span class="headerOption disabled">Others</span>
+      </div>
+    </div>
+    <div class="gameBody">
+      <br /><br />
+      <p id="gameText">Game Ongoing</p>
+      <p id="tttTurn">Player X's Turn</p>
+      <br /><br />
+      <div class="tttBody">
+        <div class="tttRow">
+          <input type="text" id="b1" readonly />
+          <input type="text" id="b2" readonly />
+          <input type="text" id="b3" readonly />
+        </div>
+        <div class="tttRow">
+          <input type="text" id="b4" readonly />
+          <input type="text" id="b5" readonly />
+          <input type="text" id="b6" readonly />
+        </div>
+        <div class="tttRow">
+          <input type="text" id="b7" readonly />
+          <input type="text" id="b8" readonly />
+          <input type="text" id="b9" readonly />
+        </div>
+      </div>
+      <button id="startGame">Restart Game</button>
+      <br /><br />
+    </div>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
