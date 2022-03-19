@@ -1,0 +1,148 @@
+body {
+  background-color: #e8eddf;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  color: #333533;
+  background-color: #e8eddf;
+  padding: 10px;
+}
+
+#headerOptions {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerOption {
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #333533;
+  padding: 5px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #333533;
+}
+
+.dropbtn {
+  color: #333533;
+  background-color: #e8eddf;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e8eddf;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333533;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bolder;
+  display: block;
+}
+
+.body {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #cfdbd5;
+}
+
+.introText {
+  padding: 50px;
+  display: flex;
+  flex: 1 1 0;
+  font-size: 24px;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.introPic {
+  padding: 50px;
+  display: flex;
+  flex: 1 1 0;
+}
+
+#gameText {
+  text-align: center;
+  color: #333533;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.gameBody {
+  background-color: #cfdbd5;
+  align-content: center;
+  text-align: center;
+}
+
+/* tic tac toe body styling*/
+
+#tttTurn {
+  text-align: center;
+  color: #333533;
+}
+
+.tttBody {
+  display: flexbox;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tttRow {
+  display: flex;
+  justify-content: center;
+}
+
+.tttBody input {
+  display: block;
+  width: 10vw;
+  height: 10vw;
+  background-color: #e8eddf;
+  color: #333533;
+  border-color: #f5cb5c;
+  border-style: solid;
+  text-align: center;
+  font-size: 8.5vw;
+}
+
+.disabled {
+  color: lightgrey;
+}
+
+#startGame {
+  margin-top: 20px;
+}
